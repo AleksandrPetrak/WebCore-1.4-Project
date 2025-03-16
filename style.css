@@ -28,7 +28,7 @@ a {
 }
 
 .burger-menu__top-bar {
-    display: flex; 
+    display: flex;
 }
 
 .burger-menu__cross-item {
@@ -112,8 +112,7 @@ a {
     color: #7E7E82;
 }
 
-.burger-menu__top-bar a:hover, 
-.burger-menu__bottom-bar a:hover {
+button:hover {
     filter: opacity(60%);
     transition-duration: 0.5s;
 }
