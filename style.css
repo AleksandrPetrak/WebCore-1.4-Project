@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "TT Lakes Light";
+    src: url("./fonts/TTLakes-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "TT Lakes Regular";
+    src: url("./fonts/TTLakes-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "TT Lakes Bold";
+    src: url("./fonts/TTLakes-Bold.woff") format("woff");
+}
+
+.burger-menu {
+    width: 320px;
+    height: 1024px;
+    font-family: "TT Lakes Regular";
+    font-size: 16px;
+    line-height: 24px;
+    box-shadow: 16px 0  52px 0 #0E185033,
+                -2px 0  4px 0 #454F7E05;
+}
+
+a {
+    color: #1B1C21;
+}
+
+.burger-menu__top-bar {
+    display: flex; 
+}
+
+.burger-menu__cross-item {
+    margin-top: 23px;
+    margin-left: 24px;
+}
+
+.burger-menu__logo-item {
+    margin-top: 18.73px;
+    margin-left: 16.73px;
+}
+
+.burger-menu__search-item {
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.burger-menu__nav-menu {
+    margin-top: 46.27px;
+    margin-bottom: 268px;
+    position: relative;
+}
+
+.burger-menu__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 24px;
+}
+
+.burger-menu__nav-list a {
+    display: flex;
+    align-items: center;
+}
+
+.burger-menu__nav-list a:hover {
+    color: #7E7E82;
+}
+
+.burger-menu__nav-list a:hover::before {
+    content: "";
+    background-image: url("img/highlight.svg");
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+}
+
+.burger-menu__contacts {
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+
+.burger-menu__bottom-bar {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.burger-menu__mail {
+    margin-bottom: 12px;
+}
+
+.burger-menu__phone-number {
+    font-family: "TT Lakes Bold";
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.burger-menu__lang {
+    margin-left: 24px;
+}
+
+.burger-menu__lang-switcher {
+    display: flex;
+    gap: 7px;
+}
+
+.burger-menu__lang-switcher a.active {
+    color: #7E7E82;
+}
+
+.burger-menu__top-bar a:hover, 
+.burger-menu__bottom-bar a:hover {
+    filter: opacity(60%);
+    transition-duration: 0.5s;
+}
+
