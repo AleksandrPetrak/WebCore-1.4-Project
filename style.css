@@ -58,6 +58,7 @@ a {
 .burger-menu__nav-list {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 32px;
     margin-left: 24px;
 }
