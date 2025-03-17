@@ -27,28 +27,30 @@ a {
     color: #1B1C21;
 }
 
+.burger-menu__header {
+    padding-top: 18.73px;
+    margin-bottom: 46.27px;
+}
+
 .burger-menu__top-bar {
     display: flex;
+    align-items: center;
 }
 
 .burger-menu__cross-item {
-    margin-top: 23px;
     margin-left: 24px;
 }
 
 .burger-menu__logo-item {
-    margin-top: 18.73px;
     margin-left: 16.73px;
 }
 
 .burger-menu__search-item {
-    margin-top: 23px;
     margin-left: auto;
     margin-right: 24px;
 }
 
 .burger-menu__nav-menu {
-    margin-top: 46.27px;
     margin-bottom: 268px;
     position: relative;
 }
@@ -112,7 +114,8 @@ a {
     color: #7E7E82;
 }
 
-button:hover {
+button:hover,
+.burger-menu__logo-link:hover {
     filter: opacity(60%);
     transition-duration: 0.5s;
 }
