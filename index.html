@@ -9,91 +9,77 @@
 </head>
 <body>
     <aside class="burger-menu">
-        <header class="burger-menu__header">
-            <ul class="burger-menu__top-bar">
-                <li class="burger-menu__cross-item">
-                    <button class="burger-menu__cross-btn">
-                        <img src="img/burger.svg" alt="cross">
+        <div class="top-bar burger-menu__top-bar">
+            <button class="top-bar__cross-btn">
+                <img src="img/burger.svg" alt="cross">
+            </button>
+            <a class="top-bar__logo-link" href="#">
+                <img src="img/Group.svg" alt="logo">
+            </a>
+            <button class="top-bar__search-btn">
+                <img src="img/search.svg" alt="search">
+            </button>
+        </div>
+        <nav class="nav-menu burger-menu__nav-menu">
+            <ul class="nav-menu__nav-list">
+                <li class="nav-menu__repair-item">
+                    <a class="nav-menu__repair-link" href="#">Ремонт техники</a>
+                </li>
+                <li class="nav-menu__services-item">
+                    <a class="nav-menu__services-link" href="#">Услуги и сервисы</a>
+                </li>
+                <li class="nav-menu__corporate-clients-item">
+                    <a class="nav-menu__corporate-clients-link" href="#">Корпоративным клиентам</a>
+                </li>
+                <li class="nav-menu__sellers-of-equipment-item">
+                    <a class="nav-menu__sellers-of-equipment-link" href="#">Продавцам техники</a>
+                </li>
+                <li class="nav-menu__partners-item">
+                    <a class="nav-menu__partners-link" href="#">Партнерам</a>
+                </li>
+                <li class="nav-menu__manufacturers-item">
+                    <a class="nav-menu__manufacturers-link" href="#">Производителям</a>
+                </li>
+                <li class="nav-menu__service-centers-item">
+                    <a class="nav-menu__service-centers-link" href="#">Наши сервисные центры</a>
+                </li>
+                <li class="nav-menu__contacts-item">
+                    <a class="nav-menu__contacts-link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contacts burger-menu__contacts">
+            <ul class="contacts__bottom-bar">
+                <li class="contacts__phone-item">
+                    <button class="contacts__phone-btn">
+                            <img src="img/chat copy.svg" alt="phone">
                     </button>
                 </li>
-                <li class="burger-menu__logo-item">
-                    <a class="burger-menu__logo-link" href="#">
-                        <img src="img/Group.svg" alt="logo">
-                    </a>
+                <li class="contacts__chat-item">
+                    <button class="contacts__chat-btn">
+                        <img src="img/chat.svg" alt="chat">
+                    </button>
                 </li>
-                <li class="burger-menu__search-item">
-                    <button class="burger-menu__search-btn">
-                        <img src="img/search.svg" alt="search">
+                <li class="contacts__profile-item">
+                    <button class="contacts__profile-btn">
+                        <img src="img/profile.svg" alt="profile">
                     </button>
                 </li>
             </ul>
-        </header>
-        <main>
-            <nav class="burger-menu__nav-menu">
-                <ul class="burger-menu__nav-list">
-                    <li class="burger-menu__repair-item">
-                        <a class="burger-menu__repair-link" href="#">Ремонт техники</a>
-                    </li>
-                    <li class="burger-menu__services-item">
-                        <a class="burger-menu__services-link" href="#">Услуги и сервисы</a>
-                    </li>
-                    <li class="burger-menu__corporate-clients-item">
-                        <a class="burger-menu__corporate-clients-link" href="#">Корпоративным клиентам</a>
-                    </li>
-                    <li class="burger-menu__sellers-of-equipment-item">
-                        <a class="burger-menu__sellers-of-equipment-link" href="#">Продавцам техники</a>
-                    </li>
-                    <li class="burger-menu_partners-item">
-                        <a class="burger-menu_partners-link" href="#">Партнерам</a>
-                    </li>
-                    <li class="burger-menu__manufacturers-item">
-                        <a class="burger-menu__manufacturers-link" href="#">Производителям</a>
-                    </li>
-                    <li class="burger-menu__service-centers-item">
-                        <a class="burger-menu__service-centers-link" href="#">Наши сервисные центры</a>
-                    </li>
-                    <li class="burger-menu__contacts-item">
-                        <a class="burger-menu__contacts-link" href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-        </main>
-        <footer class="burger-menu__footer">
-            <div class="burger-menu__contacts">
-                <ul class="burger-menu__bottom-bar">
-                    <li class="burger-menu__phone-item">
-                        <button class="burger-menu__phone-btn">
-                            <img src="img/chat copy.svg" alt="phone">
-                        </button>
-                    </li>
-                    <li class="burger-menu__chat-item">
-                        <button class="burger-menu__chat-btn">
-                            <img src="img/chat.svg" alt="chat">
-                        </button>
-                    </li>
-                    <li class="burger-menu__profile-item">
-                        <button class="burger-menu__profile-btn">
-                            <img src="img/profile.svg" alt="profile">
-                        </button>
-                    </li>
-                </ul>
-                <p class="burger-menu__mail">mail@cps.com</p>
-                <p class="burger-menu__phone-number">8 800 890 8900</p>
-            </div>
-            <div class="burger-menu__lang">
-                <ul class="burger-menu__lang-switcher">
-                    <li class="burger-menu__ru-lang-item">
-                        <a class="active" href="#">RU</a>
-                    </li>
-                    <li class="burger-menu__en-lang-item">
-                        <a href="#">EN</a>
-                    </li>
-                    <li class="burger-menu__ch-lang-item">
-                        <a href="#">CH</a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+            <a class="contacts__mail" href="mailto:mail@cps.com">mail@cps.com</a>
+            <a class="contacts__phone-number" href="tel:88008908900">8 800 890 8900</a>
+        </div>
+        <ul class="lang-switcher burger-menu__lang-switcher">
+            <li class="lang-switcher__ru-lang-item">
+                <a class="active" href="#">RU</a>
+            </li>
+            <li class="lang-switcher__en-lang-item">
+                <a href="#">EN</a>
+            </li>
+            <li class="lang-switcher__ch-lang-item">
+                <a href="#">CH</a>
+            </li>
+        </ul>
     </aside>
 </body>
 </html>
