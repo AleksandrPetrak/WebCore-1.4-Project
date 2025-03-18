@@ -9,7 +9,7 @@
 </head>
 <body>
     <aside class="burger-menu">
-        <div class="top-bar burger-menu__top-bar">
+        <header class="top-bar burger-menu__top-bar">
             <button class="top-bar__cross-btn">
                 <img src="img/burger.svg" alt="cross">
             </button>
@@ -19,7 +19,7 @@
             <button class="top-bar__search-btn">
                 <img src="img/search.svg" alt="search">
             </button>
-        </div>
+        </header>
         <nav class="nav-menu burger-menu__nav-menu">
             <ul class="nav-menu__nav-list">
                 <li class="nav-menu__repair-item">
@@ -48,8 +48,8 @@
                 </li>
             </ul>
         </nav>
-        <div class="contacts burger-menu__contacts">
-            <ul class="contacts__bottom-bar">
+        <footer class="contacts burger-menu__contacts">
+            <ul class="bottom-bar contacts__bottom-bar">
                 <li class="contacts__phone-item">
                     <button class="contacts__phone-btn">
                             <img src="img/chat copy.svg" alt="phone">
@@ -66,20 +66,22 @@
                     </button>
                 </li>
             </ul>
-            <a class="contacts__mail" href="mailto:mail@cps.com">mail@cps.com</a>
-            <a class="contacts__phone-number" href="tel:88008908900">8 800 890 8900</a>
-        </div>
-        <ul class="lang-switcher burger-menu__lang-switcher">
-            <li class="lang-switcher__ru-lang-item">
-                <a class="active" href="#">RU</a>
-            </li>
-            <li class="lang-switcher__en-lang-item">
-                <a href="#">EN</a>
-            </li>
-            <li class="lang-switcher__ch-lang-item">
-                <a href="#">CH</a>
-            </li>
-        </ul>
+            <address class="address-details contacts__address-details">
+                <a class="address-details__mail" href="mailto:mail@cps.com">mail@cps.com</a><br>
+                <a class="address-details__phone-number" href="tel:88008908900">8 800 890 8900</a>
+            </address>
+            <ul class="lang-switcher contacts__lang-switcher">
+                <li class="lang-switcher__ru-lang-item">
+                    <a class="active" href="#">RU</a>
+                </li>
+                <li class="lang-switcher__en-lang-item">
+                    <a href="#">EN</a>
+                </li>
+                <li class="lang-switcher__ch-lang-item">
+                    <a href="#">CH</a>
+                </li>
+            </ul>
+        </footer>
     </aside>
 </body>
 </html>
